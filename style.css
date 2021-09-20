@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    text-align: center;
+    font-family: "roboto", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-platillos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.list-platillos figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: colum;
+
+}
+
+.header{
+    height: 450px;
+    background: url(img/header.jpg) no-repeat center top;
+    background: cover;
+}
+
+.navbar{
+    height: 63px;
+    background: #212121;
+    border-bottom: 1px dashed #d6e199;
+}
+
+.navbar a{
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 20px;
+}
+.title{
+    margin-bottom: 40px;
+    font: 60px;
+    text-transform: uppercase;
+
+}
+
